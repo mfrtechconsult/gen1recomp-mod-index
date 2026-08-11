@@ -2,8 +2,8 @@
   "id": "kanto_dive",
   "title": "Kanto Dive",
   "author": "Mra YT",
-  "summary": "Adds HM06 DIVE and Emerald-style underwater exploration with linked Kanto seafloor maps and Tiled-authored dive zones.",
-  "version": "1.5.3",
+  "summary": "Adds HM08 DIVE and a generated Full-Kanto 2D underwater world with visible contact-only Pokemon encounters.",
+  "version": "1.6.1",
   "categories": [
     "GAMEPLAY",
     "CONTENT"
@@ -12,13 +12,13 @@
     "dive",
     "underwater",
     "exploration",
-    "maps",
-    "tiled",
-    "hm06"
+    "full-kanto",
+    "wilds",
+    "hm08"
   ],
   "repo": "https://github.com/mfrtechconsult/Kanto-gen1-dive",
   "github": "mfrtechconsult/Kanto-gen1-dive",
-  "downloadURL": "https://github.com/mfrtechconsult/Kanto-gen1-dive/releases/download/v1.5.3/kanto_dive-1.5.3.zip",
+  "downloadURL": "https://github.com/mfrtechconsult/Kanto-gen1-dive/releases/download/v1.6.1/Kanto-Dive-1.6.1-Launcher-Ready.zip",
   "automatic_version_check": true,
   "api": 2,
   "game_version": ">=0.0.0-0 <2.0.0",
