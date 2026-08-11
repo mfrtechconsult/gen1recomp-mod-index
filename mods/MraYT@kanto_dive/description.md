@@ -1,27 +1,25 @@
 # Kanto Dive
 
-Kanto Dive adds HM06 DIVE and Emerald-style underwater exploration to Gen1Recomp. Surface water regions are explicitly linked to authored underwater landing regions, allowing the player to dive, move beneath Kanto and surface at the corresponding location.
+Kanto Dive is a strictly 2D HM08 DIVE overhaul for Gen1Recomp. It builds a generated underwater counterpart for Kanto's real water network, letting the player dive beneath routes, coastlines, harbors and other connected water areas while keeping the presentation faithful to the flat Gen I overworld style.
 
 ## Features
 
-- HM06 DIVE as a battle move and field action.
-- DIVE and SURFACE actions on explicitly linked water cells.
-- Bidirectional coordinate mapping between surface and underwater regions.
-- Dark DIVE water visible in 2D, Tilt and Voxel views.
-- Surf movement and mount rendering preserved while underwater.
-- Route 19 Reef Passage with two separate entrances and an underwater corridor.
-- Route 20 Seafloor, Seafoam Sunken Cave and Route 21 Trench.
-- Wild encounters on underwater maps.
-- Tiled-based authoring workflow with paired `DiveZones` and `DiveLandings` objects.
-- Public API allowing other mods to register additional DIVE zones.
-- Compatibility handling for Dramatic Sky Ride mounted rendering.
+- HM08 DIVE as a field action with DIVE and SURFACE travel across Kanto's real water cells.
+- Generated Full-Kanto underwater atlas instead of a small catalog of handcrafted dive maps.
+- Continuous underwater hydrology beneath bridges, docks and pontoons while keeping those structures solid on the surface.
+- Enlarged open-ocean spaces, seamless underwater route connections and submerged cave/harbor links.
+- Biome-aware 2D seabed scenery and sparse salvage points.
+- Visible, Pokedex-scaled underwater Pokemon when Wilds of Kanto is installed.
+- Under Wilds of Kanto, invisible/random underwater encounters are suppressed and visible Pokemon start battles only on direct sprite contact.
+- HM06 WHIRLPOOL and HM07 WATERFALL compatibility alongside HM08 DIVE.
+- Crystal 251, Dramatic Sky Ride and common follower-provider compatibility.
 
-## Obtaining HM06
+## Obtaining HM08
 
-After defeating Blaine and obtaining the Volcano Badge, visit the Metronome Room in the Cinnabar Pokémon Lab. The scientist who normally gives TM35 also grants HM06 without replacing the original TM35 reward.
+A fixed researcher stands outside, just left of the Cinnabar Lab. He gives HM08 DIVE immediately as long as the player does not already have it; there is no badge or story requirement for obtaining the HM.
 
-## Authoring
+## Presentation
 
-The repository includes editable TMX examples, a route template and a converter for creating additional underwater areas. Links use a shared `linkId`, so surface and underwater regions can be placed at different map coordinates while retaining Emerald-style paired movement.
+Kanto Dive deliberately remains 2D. Surface geography is used as the source of truth for the underwater world, while ocean and coastal profiles can expand the navigable underwater space so the seafloor feels broader than the compressed Gen I surface map.
 
 Kanto Dive is released under the MIT License.
